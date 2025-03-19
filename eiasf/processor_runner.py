@@ -11,7 +11,7 @@ import importlib.resources
 
 from eiasf.eiasf_config import EiasConfig
 
-logger = logging.getLogger(f"wsaf.framework.{os.path.splitext(os.path.basename(__file__))[0]}")
+logger = logging.getLogger(f"eiasf.framework.{os.path.splitext(os.path.basename(__file__))[0]}")
 
 
 class ProcessorRunner:
