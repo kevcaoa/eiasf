@@ -11,7 +11,7 @@ class EiasBusEnum(enum.Enum):
     EIAS_BUS = enum.auto()
 
 
-logger = logging.getLogger(f"wsaf.framework.{os.path.splitext(os.path.basename(__file__))[0]}")
+logger = logging.getLogger(f"eiasf.framework.{os.path.splitext(os.path.basename(__file__))[0]}")
 
 
 class EiasContext:

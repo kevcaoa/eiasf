@@ -9,7 +9,7 @@ from typing import NamedTuple, Union
 from eiasf.eiasf_context import EiasContext
 from eiasf import eiasf_slack
 
-logger = logging.getLogger(f"wsaf.framework.{os.path.splitext(os.path.basename(__file__))[0]}")
+logger = logging.getLogger(f"eiasf.framework.{os.path.splitext(os.path.basename(__file__))[0]}")
 
 
 class ProcessorExitCode(enum.Enum):
