@@ -25,7 +25,7 @@ def get_client():
     global client
 
     if client is None:
-        client = WebClient(token=os.environ["WSAF_SLACK_TOKEN"], ssl=ssl_context, timeout=300)
+        client = WebClient(token=os.environ["EIAS_SLACK_TOKEN"], ssl=ssl_context, timeout=300)
     return client
 
 
